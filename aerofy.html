@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="aerof.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+</head>
+<body>
+  <div class="stky "></div>
+    <div class="d-flex  flex-row mb3 justify-content-evenly align-items-center">
+<img src="aeroflogo.png" height="100" width="250" alt="logo">
+        <h4 style="color:#0099ff" id="one" onclick="ted('fourt')" >Home</h4>
+        <h4 id="two" onclick="ted('onet')">About Us</h4>
+        <h4 id="three" onclick="ted('twot')">Technology</h4>
+        <h4 id="four" onclick="ted('threet')">Contact Us</h4>
+        <h3 class="btn1 ">Speak with an expert&rarr;</h3>
+    </div>
+    <script>
+      
+      function ted(tren){
+        if (tren=="onet"){document.getElementById('two').style.color="#0099ff";
+      document.getElementById('one').style.color="black";
+      document.getElementById('three').style.color="black";
+      document.getElementById('four').style.color="black";
+    }
+
+        else if(tren=="twot"){document.getElementById('three').style.color="#0099ff";
+        document.getElementById('one').style.color="black";
+        document.getElementById('two').style.color="black";
+        document.getElementById('four').style.color="black";}
+
+        else if(tren=="threet"){document.getElementById('four').style.color="#0099ff";
+        document.getElementById('one').style.color="black";
+        document.getElementById('three').style.color="black";
+        document.getElementById('two').style.color="black";}
+        
+        else if(tren=="fourt"){document.getElementById('four').style.color="black";
+        document.getElementById('one').style.color="#0099ff";
+        document.getElementById('three').style.color="black";
+        document.getElementById('two').style.color="black";}
+        
+      }
+    </script>
+    
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img1.jpg" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+          <img src="img2.jpg" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+          <img src="img3.jpg" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+          <img src="img4.jpg" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+          <img src=img5.jpg" class="d-block w-100" >
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>      
+    
+    <div class="part3">
+      <div class="txtdac fl">
+        <h1 style="font-size: 3.5rem;">World's most</h1><h1 style="font-size: 3.5rem;"> efficient</h1>
+        <h1 class="bleu">Direct Air Capture</h1>
+        <p style="color: gray; font-weight: bold;">AT LEAST 20% MORE EFFICIENT THAN ANY OTHER EXISTING CARBON CAPTURE SYSTEM ON THE PLANET EARTH</p>
+      </div>
+      <div class="imgdac fr"></div>
+      </div>
+      
+      <div class="part4">
+        <div class="txtccap fl">
+          <h1 style="font-size: 3.5rem;">Automobile Exhausts</h1><h1 style="font-size: 3.5rem;"> efficient</h1>
+          <h1 class="bleu">Carbon Capture</h1>
+          <p>
+            –WHICH DOESN’T CONSUME ENERGY FROM THE ENGINE AS IT IS A SELF-POWERED SYSTEM</p>
+            <p>–ENHANCES THE ENGINE’S LIFE IN THE LONG RUN</p>
+            <p>–INCREASES THE MILEAGE OF THE VEHICLE</p>
+          </p>
+        </div>
+        <div class="imgccap fr"></div>
+      </div>
+      <div class="partplay d-flex flex-column mb-3">
+        <h1 style="text-align: center; margin-top: 50px; word-spacing:15px; font-size: 3.5rem; font-weight: bolder;">Keep Carbon out, Make Future Safe </h1>
+        <h4 style="text-align: center; margin-top: 10px; word-spacing:5px; font-size: 2rem; font-weight: bolder;">A Carbon Free World: Take Action Now! </h4>
+      </div>
+    <div class="part5">
+      <div style="text-align: center; margin-top: 60px;"><h3 style="font-size: 4rem; letter-spacing: -5px; word-spacing: 8px;">Why Choose <span style="color: #0099ff;">Aerofy</span></h3></div>
+    <div class="g1">
+      <div class="grid1"></div>
+    <div class="grid23"></div>
+    <div class="grid23"></div>
+  </div>
+    <div class="g2">
+    <div class="grid21"></div>
+    <div class="grid22"></div>
+    <div class="grid23"></div>
+  </div>
+    </div>
+    <div class="part6">
+      
+      <div class="getintouch">
+        <p style="color: #0099ff;" class="gint">GET IN TOUCH</p><br>
+        <h1 class="lcontrev">Let's connect to  </h1><br>
+        <h1 class="lcontrev">reverse</h1><br>
+        <h1 class="lcontrev2">Climate Change</span></h1>
+        <div class="icon">
+          
+          <div class="phn">
+            <img src="phoneic.png" width="50" height="50" style="margin-right: 15px;" class="fl" ><h2 class="hfon">Phone</h2><p style="margin-top:-10px;">+91-541651651</p></div>
+        <div class="emal ">
+          
+            <img src="email.png" width="50" height="50" style="margin-right: 15px;" class="fl" ><h2 class="hfon">Email</h2><p style="margin-top:-10px;">info@aerofy.tech</p>
+        </div>
+      </div>
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111989.15941064345!2d77.31262681070362!3d28.69977877070777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1bb41c50fdf%3A0xe6f06fd26a7798ba!2sGhaziabad%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1713940868849!5m2!1sen!2sin" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      
+      <div class="form me-5 my-5">
+        <h1 class="mx-5 my-4 form-please" >Please fill the from below</h2>
+          <p class="ms-5">we will contact you within 24hrs via E-mail</p>
+          <p class="ms-4">Name</p>
+          <input class="inputsmallbox" type="text" placeholder="Name">
+          <p class="ms-4 my-2">E-mail</p>
+          <input class="inputsmallbox" type="email" placeholder="E-mail"><br>
+          <p  class="ms-4 my-2">Message</p>
+          <div class="inputbigboxdiv">
+          <input type="text" class="inputbigbox"  placeholder="Message"></div><br>
+          <p class="sendbtn my-2 mx-4">Send</p>
+
+      </div>
+    </div>
+    
+
+  
+  </div>
+  <div class="part7">
+    <div class="part7text"><h2 class="allian mt-3">Alliances &</h2>
+      <h2>Partners</h2></div>
+    
+  </div>
+  <div class="part8img"></div>
+</body>
+</html>
